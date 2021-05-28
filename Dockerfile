@@ -1,2 +1,2 @@
-FROM tomcat:8.0.20-jre8 
+FROM tomcat:https:7-jdk8-corretto
 COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
